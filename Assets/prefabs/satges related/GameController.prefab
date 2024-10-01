@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3741208961572103790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3741208961572103784}
+  - component: {fileID: 3741208961572103785}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3741208961572103784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741208961572103790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.883108, y: 68.61077, z: 0.44294187}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3741208961572103785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741208961572103790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceef69b8258e43240b9e54c1c2d0e6dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamePlayPanel: {fileID: 0}
+  losePanel: {fileID: 0}
+  winPanel: {fileID: 0}
+  firstPlayer: {fileID: 0}
+  levelTimer: {fileID: 0}
+  backgroundMaterial:
+  - {fileID: 2100000, guid: 1cefbfeeb9035fe43a43e1b1b1eb598c, type: 2}
+  - {fileID: 2100000, guid: 648113640a13f3649a340140ad89fd43, type: 2}
+  - {fileID: 2100000, guid: b92276deeb3d5a5438d223cdbc1a3c04, type: 2}
+  - {fileID: 2100000, guid: 2ae61a57b32c8694a9ae2ad157f72e3f, type: 2}
+  - {fileID: 2100000, guid: 39d4789516ab298418e576e1f60c916f, type: 2}
+  - {fileID: 2100000, guid: f01f1cd0e653c8c4db0b8663c850cc3b, type: 2}
+  delayTime: 0.25
